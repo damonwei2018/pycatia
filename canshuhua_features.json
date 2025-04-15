@@ -1,0 +1,12 @@
+{
+    "document_name": "canshuhua.CATPart",
+    "bodies": [
+        {
+            "name": "零件几何体",
+            "features": []
+        }
+    ],
+    "features": [],
+    "parameters": [],
+    "relations": []
+}

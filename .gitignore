@@ -1,12 +1,8 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -20,15 +16,42 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CATIA files
+*.CATPart
+*.CATProduct
+*.CATDrawing
+*.catalog
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Other
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
 *.manifest
 *.spec
 
@@ -54,7 +77,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 
@@ -87,15 +109,6 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -114,8 +127,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-.idea/
-
 __archive__
 __junk__/*
 __reference_scripts__
@@ -132,10 +143,6 @@ quick_n_dirty.py
 
 .vim
 
-*.CATDrawing
-*.CATPart
-*.CATProduct
-*.CATMaterial
 *.3dmap
 *.3dxml
 *.NavRep
